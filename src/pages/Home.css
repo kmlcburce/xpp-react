@@ -1,0 +1,38 @@
+.fullwidth-carousel {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  
+  .caption-overlay {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 500px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .caption-overlay h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .caption-overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  

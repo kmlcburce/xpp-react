@@ -1,0 +1,16 @@
+.forecast-card {
+    min-height: 230px;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .forecast-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .temperature-box {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
