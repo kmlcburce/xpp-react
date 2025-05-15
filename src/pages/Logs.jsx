@@ -68,7 +68,7 @@ export default function Logs() {
           </Pagination>
         </>
       ) : (
-        <Spinner animation="border" />
+        <Spinner animation="border" role="status"/>
       )}
     </Container>
   );

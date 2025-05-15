@@ -12,7 +12,7 @@ export default function ForecastCard({ data }) {
     });
 
   return (
-    <Card className="forecast-card h-100 shadow-sm border-0">
+    <Card className="forecast-card h-100 shadow-sm border-0" data-testid="forecast-card">
       <Card.Body className="d-flex flex-column justify-content-between">
         <div>
           <Card.Title className="mb-2 fw-bold text-primary">{formattedDate}</Card.Title>
